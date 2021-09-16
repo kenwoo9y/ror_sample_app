@@ -30,6 +30,9 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'rexml', '~> 3.2', '>= 3.2.4'
 
+# Use Bootstrap
+gem 'bootstrap-sass', '3.3.7'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
