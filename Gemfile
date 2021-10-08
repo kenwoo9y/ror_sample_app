@@ -36,6 +36,9 @@ gem 'bootstrap-sass', '3.3.7'
 # Use Rails Controller Testing
 gem 'rails-controller-testing'
 
+# Use bcrypt
+gem 'bcrypt',         '3.1.11'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
